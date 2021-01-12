@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  background-color: #e3ebb0;
+
+  color: #e3ebb0;
+}
+
+.navbar-container {
+  background-color: pink;
+}
+
+div.home {
+  background-color: royalblue;
+}
