@@ -12,3 +12,11 @@ body {
 div.home {
   background-color: royalblue;
 }
+
+.seekr-container {
+  width: 100em;
+}
+
+.seekr-img {
+  width: 30%;
+}
