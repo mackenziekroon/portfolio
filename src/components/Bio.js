@@ -13,7 +13,7 @@ const Bio = () => {
         I previously worked in the fashion industry as an Operations Coordinator
       </h5>
       <h5>I also spent time working with Menswear Dog on photoshoots</h5>
-      <img alt="" src={bodhi}></img>
+      <img className="bodhi" alt="" src={bodhi}></img>
     </div>
   );
 };

@@ -1,0 +1,32 @@
+body {
+  font-family: Candara;
+  background-color: #4fb477;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-header {
+  margin: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+.seekr-container {
+  width: 100em;
+}
+
+.seekr-img {
+  width: 30%;
+}
+
+.home {
+  color: white;
+}
+
+/* BIO */
+img.bodhi {
+  border: 5px solid white;
+}
