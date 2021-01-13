@@ -26,11 +26,15 @@ body {
 .navbar-container {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 25em;
+  box-shadow: 5px 5px goldenrod;
 }
 
 .nav-header {
   margin: 10%;
-  color: white;
+  color: goldenrod;
   text-decoration: none;
 }
 
