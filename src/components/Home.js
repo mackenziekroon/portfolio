@@ -1,12 +1,12 @@
 import React from "react";
 import homeImg from "../homeImg.png";
-import Navbar from "./Navbar";
+import HomeNavbar from "./HomeNavbar";
 
 const Home = () => {
   return (
     <div className="home-container">
       <img className="home-img" alt="" src={homeImg} />
-      <Navbar />
+      <HomeNavbar />
     </div>
   );
 };

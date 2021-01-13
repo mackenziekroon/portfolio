@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 import match from "../match.png";
 
 const Projects = () => {
   return (
     <div>
+      <Navbar />
       <h1>Projects</h1>
       <div className="seekr-container">
         <h3>seekr</h3>

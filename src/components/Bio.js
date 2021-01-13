@@ -1,9 +1,11 @@
 import React from "react";
 import bodhi from "../bodhi.jpeg";
+import Navbar from "./Navbar";
 
 const Bio = () => {
   return (
     <div>
+      <Navbar />
       <h1>About me...</h1>
       <h5>
         I am a recent graduate from the Grace Hopper program at Fullstack

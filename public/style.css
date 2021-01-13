@@ -3,20 +3,35 @@ body {
   background-color: #4fb477;
 }
 
-.navbar-container {
+.home-navbar-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: whitesmoke;
+  height: 25em;
+  /* background-color: whitesmoke; */
 }
 
-.nav-header {
+.home-nav-header {
   align-items: center;
   justify-content: center;
   margin: 10%;
-  color: goldenrod;
+  color: white;
   text-decoration: none;
   font-size: 20px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  height: 20%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-header {
+  margin: 10%;
+  color: white;
+  text-decoration: none;
 }
 
 /* HOME PAGE */
