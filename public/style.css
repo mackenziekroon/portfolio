@@ -5,22 +5,30 @@ body {
 
 .home-navbar-container {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  /* align-items: center; */
+  justify-content: space-around;
   height: 25em;
+  flex-wrap: wrap;
+  align-content: center;
   /* background-color: whitesmoke; */
 }
 
-.home-nav-header {
+.bio-nav-header {
   align-items: center;
-  justify-content: center;
-  margin: 10%;
+  /* margin: 5%; */
+  /* justify-content: center; */
   color: white;
   text-decoration: none;
   font-size: 20px;
   background-color: lightgreen;
   border-radius: 50%;
-  height: 20%;
+  border: 5px solid gold;
+  height: 5em;
+  width: 7em;
+}
+
+.bio-nav-header:hover {
+  background-color: #e9963a;
 }
 
 .navbar-container {
@@ -30,6 +38,10 @@ body {
   background-color: white;
   border-radius: 25em;
   box-shadow: 5px 5px goldenrod;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
 
 .nav-header {
@@ -44,14 +56,6 @@ body {
   width: 100%;
 }
 
-.seekr-container {
-  width: 100em;
-}
-
-.seekr-img {
-  width: 30%;
-}
-
 .home {
   color: white;
 }
@@ -59,4 +63,36 @@ body {
 /* BIO */
 img.bodhi {
   border: 5px solid white;
+}
+
+/* PROJECTS */
+.projects-heading {
+  color: white;
+  margin-left: 3em;
+}
+
+.seekr-container {
+  display: flex;
+  width: 100%;
+  margin-left: 4em;
+  height: 100vh;
+}
+
+.seekr-header {
+  color: white;
+  margin-top: 2em;
+}
+
+.seekr-img {
+  margin-top: 4em;
+  width: 21%;
+  height: auto;
+}
+
+.view-demo {
+  color: white;
+}
+
+.seekr-description {
+  background-color: white;
 }
