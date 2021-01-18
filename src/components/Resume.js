@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
+import resume from "../resume.png";
 
 const Resume = () => {
   return (
     <div>
       <Navbar />
-      <h1>Resume</h1>
+      <div className="resume-container">
+        <img className="resume-img" alt="" src={resume} />
+      </div>
     </div>
   );
 };

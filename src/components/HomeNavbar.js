@@ -14,9 +14,9 @@ const HomeNavbar = () => {
         <Link to="/projects">
           <div className="home-nav-header">Projects</div>
         </Link>
-        <Link to="/resume">
+        {/* <Link to="/resume">
           <div className="home-nav-header">Resume</div>
-        </Link>
+        </Link> */}
         <Link to="/contact">
           <div className="home-nav-header">Contact Me</div>
         </Link>

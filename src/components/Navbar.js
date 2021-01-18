@@ -14,9 +14,9 @@ const Navbar = () => {
         <Link to="/projects">
           <div className="nav-header">Projects</div>
         </Link>
-        <Link to="/resume">
+        {/* <Link to="/resume">
           <div className="nav-header">Resume</div>
-        </Link>
+        </Link> */}
         <Link to="/contact">
           <div className="nav-header">Contact Me</div>
         </Link>
