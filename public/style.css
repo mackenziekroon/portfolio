@@ -10,13 +10,18 @@ body {
   height: 25em;
   flex-wrap: wrap;
   align-content: center;
+  /* text-decoration: none; */
   /* background-color: whitesmoke; */
 }
 
-.bio-nav-header {
+div a {
+  text-decoration: none;
+}
+
+.home-nav-header {
   align-items: center;
   /* margin: 5%; */
-  /* justify-content: center; */
+  justify-content: center;
   color: white;
   text-decoration: none;
   font-size: 20px;
@@ -27,7 +32,7 @@ body {
   width: 7em;
 }
 
-.bio-nav-header:hover {
+.home-nav-header:hover {
   background-color: #e9963a;
 }
 
