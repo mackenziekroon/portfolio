@@ -6,7 +6,7 @@ const Bio = () => {
   return (
     <div>
       <Navbar />
-      <h1>About me...</h1>
+      <h1>Hey! I'm Mackenzie,</h1>
       <h5>
         I am a recent graduate from the Grace Hopper program at Fullstack
         Academy looking for a full-time position as a Software Engineer

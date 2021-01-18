@@ -5,13 +5,11 @@ body {
 
 .home-navbar-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-around;
   height: 25em;
   flex-wrap: wrap;
   align-content: center;
-  /* text-decoration: none; */
-  /* background-color: whitesmoke; */
 }
 
 div a {
@@ -20,7 +18,8 @@ div a {
 
 .home-nav-header {
   align-items: center;
-  /* margin: 5%; */
+  /* margin-top: 10%; */
+  padding: 1em 1em;
   justify-content: center;
   color: white;
   text-decoration: none;
@@ -28,8 +27,9 @@ div a {
   background-color: lightgreen;
   border-radius: 50%;
   border: 5px solid gold;
-  height: 5em;
-  width: 7em;
+  /* height: 5em; */
+  /* width: 5em; */
+  text-transform: uppercase;
 }
 
 .home-nav-header:hover {
