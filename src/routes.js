@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
 
 class Routes extends React.Component {
   render() {
