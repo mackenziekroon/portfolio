@@ -16,23 +16,54 @@ div a {
   text-decoration: none;
 }
 
-.home-nav-header {
+.home-bio-header {
   align-items: center;
-  /* margin-top: 10%; */
   padding: 1em 1em;
   justify-content: center;
   color: white;
   text-decoration: none;
   font-size: 20px;
   background-color: lightgreen;
-  border-radius: 50%;
+  border-radius: 30% 70% 20% 50%;
   border: 5px solid gold;
-  /* height: 5em; */
-  /* width: 5em; */
   text-transform: uppercase;
 }
 
-.home-nav-header:hover {
+.home-project-header {
+  align-items: center;
+  padding: 1em 1em;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: lightgreen;
+  border-radius: 50% 20% 90% 25%;
+  border: 5px solid gold;
+  text-transform: uppercase;
+}
+
+.home-contact-header {
+  align-items: center;
+  padding: 1em 1em;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: lightgreen;
+  border-radius: 40% 10% 30% 85%;
+  border: 5px solid gold;
+  text-transform: uppercase;
+}
+
+.home-bio-header:hover {
+  background-color: #e9963a;
+}
+
+.home-project-header:hover {
+  background-color: #e9963a;
+}
+
+.home-contact-header:hover {
   background-color: #e9963a;
 }
 

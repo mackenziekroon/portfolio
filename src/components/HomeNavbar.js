@@ -9,16 +9,16 @@ const HomeNavbar = () => {
           <div className="nav-header">Home</div>
         </Link> */}
         <Link to="/bio">
-          <div className="home-nav-header">About me</div>
+          <div className="home-bio-header">About me</div>
         </Link>
         <Link to="/projects">
-          <div className="home-nav-header">Projects</div>
+          <div className="home-project-header">Projects</div>
         </Link>
         {/* <Link to="/resume">
           <div className="home-nav-header">Resume</div>
         </Link> */}
         <Link to="/contact">
-          <div className="home-nav-header">Contact Me</div>
+          <div className="home-contact-header">Contact Me</div>
         </Link>
       </div>
     </div>
